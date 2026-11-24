@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-label="NOVA Planner">
+  <defs>
+    <linearGradient id="nova-gradient" x1="16" y1="16" x2="112" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A78BFA"></stop>
+      <stop offset="1" stop-color="#6D28D9"></stop>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#nova-gradient)"></rect>
+  <path d="M70 28 Q74.5 51.5 98 56 Q74.5 60.5 70 84 Q65.5 60.5 42 56 Q65.5 51.5 70 28 Z" fill="#ffffff"></path>
+  <circle cx="95" cy="90" r="4.5" fill="#ffffff" opacity="0.9"></circle>
+  <circle cx="38" cy="88" r="2.5" fill="#ffffff" opacity="0.65"></circle>
+</svg>
