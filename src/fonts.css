@@ -1,0 +1,67 @@
+/* Font files are provided by the @expo-google-fonts/inter and
+   @expo-google-fonts/jetbrains-mono npm packages (Google Fonts distribution).
+   The same files are embedded in PDF exports (src/lib/export-note.ts), so
+   notes look the same on screen as in the exported PDF. */
+@font-face {
+  font-family: "Inter";
+  src: url("../node_modules/@expo-google-fonts/inter/400Regular/Inter_400Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../node_modules/@expo-google-fonts/inter/700Bold/Inter_700Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../node_modules/@expo-google-fonts/inter/400Regular_Italic/Inter_400Regular_Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../node_modules/@expo-google-fonts/inter/700Bold_Italic/Inter_700Bold_Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../node_modules/@expo-google-fonts/jetbrains-mono/400Regular/JetBrainsMono_400Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../node_modules/@expo-google-fonts/jetbrains-mono/700Bold/JetBrainsMono_700Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../node_modules/@expo-google-fonts/jetbrains-mono/400Regular_Italic/JetBrainsMono_400Regular_Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../node_modules/@expo-google-fonts/jetbrains-mono/700Bold_Italic/JetBrainsMono_700Bold_Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@utility font-note-sans {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+@utility font-note-mono {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
