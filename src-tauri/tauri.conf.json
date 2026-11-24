@@ -1,0 +1,64 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "NOVA Planner",
+  "version": "0.1.0",
+  "identifier": "com.nova.planner",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "NOVA Planner",
+        "width": 800,
+        "height": 600,
+        "maximized": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis",
+      "msi",
+      "dmg",
+      "app",
+      "deb",
+      "appimage"
+    ],
+    "copyright": "Copyright (c) 2026 NOVA. Based on Personal OS by Md Habibullah Al Hadi (MIT).",
+    "category": "Productivity",
+    "shortDescription": "NOVA Planner \u2014 tasks, calendar, projects, habits and notes, local-first.",
+    "longDescription": "NOVA Planner is a premium local-first personal planning app: dashboard, Kanban tasks, calendar, project timelines, habit tracking and notes. All data is stored locally in SQLite on your device \u2014 no account, no cloud required.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "macOS": {
+      "dmg": {
+        "background": "icons/dmg-background.png",
+        "windowSize": {
+          "width": 660,
+          "height": 400
+        },
+        "appPosition": {
+          "x": 180,
+          "y": 170
+        },
+        "applicationFolderPosition": {
+          "x": 480,
+          "y": 170
+        }
+      }
+    }
+  }
+}
