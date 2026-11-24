@@ -41,7 +41,7 @@ prerequisites listed in the [Tauri v2 documentation](https://v2.tauri.app/start/
 ```bash
 git clone https://github.com/quocdung2107/nova-planner.git nova-planner
 cd nova-planner
-npm ci
+npm install
 npm run icons        # generates src-tauri/icons from the NOVA logo (icons are not stored in git)
 npm run tauri dev    # run in development
 npm run tauri build  # produce installers under src-tauri/target/release/bundle/
@@ -50,7 +50,7 @@ npm run tauri build  # produce installers under src-tauri/target/release/bundle/
 Notes:
 
 - The Inter and JetBrains Mono fonts come from the `@expo-google-fonts/*`
-  npm packages, so `npm ci` is the only download you need — no font files
+  npm packages, so `npm install` is the only download you need — no font files
   are stored in this repository.
 - `npm run build` type-checks (TypeScript strict) and builds the frontend
   into `dist/` without the desktop shell.
